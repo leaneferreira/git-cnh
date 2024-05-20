@@ -8,15 +8,17 @@
 <body>
     <script>
      let idade = parseInt(prompt("digite sua idade"))
+    function valida(idade){
     
-     if (idade < 18){
-        alert("menor de idade, não pode dirigir");
-     }
-     else {
-        alert("você pode dirigir");
-     }
+        if (idade < 18){
+            alert("menor de idade, não pode dirigir");
+         }
+        else {
+            alert("você pode dirigir");
+        }
 
-
+    }
+    valida(idade);
 
 
 
